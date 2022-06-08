@@ -109,7 +109,7 @@ class _RollingSwitchState extends State<LiteRollingSwitch>
       },
       child: Container(
         padding: EdgeInsets.all(5),
-        width: 130,
+        width: 200,
         decoration: BoxDecoration(
             color: transitionColor, borderRadius: BorderRadius.circular(50)),
         child: Stack(
