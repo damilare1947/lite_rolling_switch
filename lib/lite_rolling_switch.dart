@@ -156,7 +156,7 @@ class _RollingSwitchState extends State<LiteRollingSwitch>
                 angle: lerpDouble(0, 2 * pi, value),
                 child: Container(
                   height: 40,
-                  width: 40,
+                  width: 200,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                       shape: BoxShape.circle, color: Colors.white),
